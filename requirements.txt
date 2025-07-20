@@ -1,0 +1,9 @@
+numpy==1.26.4
+torch==2.5.1+cu124
+torchvision==0.20.1+cu124
+scikit-learn==1.2.2
+PyWavelets==1.8.0
+scikit-image==0.25.2
+tqdm==4.67.1
+tensorboardX==2.6.2.2
+Pillow>=8.0.0
