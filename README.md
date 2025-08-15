@@ -1,5 +1,11 @@
 # Knee osteoarthritis detection and categorization with deep learning models 
 
+![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)
+![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+[![GitHub forks](https://img.shields.io/github/forks/crimsonKn1ght/Code-OA-detection-model.svg?style=social&label=Fork)](https://github.com/crimsonKn1ght/Code-OA-detection-model/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/crimsonKn1ght/Code-OA-detection-model.svg?style=social&label=★%20Star)](https://github.com/crimsonKn1ght/Code-OA-detection-model/stargazers)
+
+
 This repository provides the implementation of the method described in our paper:<br />
 Knee osteoarthritis detection and categorization with deep learning models<br />
 <i>Gourab Roy, Arup Kumar Pal, Manish Raj, Jitesh Pradhan</i>
