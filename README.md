@@ -10,12 +10,14 @@ This repository provides the implementation of the method described in our paper
 Knee osteoarthritis detection and categorization with deep learning models<br />
 <i>Gourab Roy, Arup Kumar Pal, Manish Raj, Jitesh Pradhan</i>
 
-Conference: The International Symposium on Artificial Intelligence (ISAI), 2025<br />
-[To appear in conference proceedings in the <b>Lecture Notes in Networks and Systems</b> Book Series]
+Conference: The International Symposium on Artificial Intelligence (ISAI), 2025.<br />
 
-The code includes:
+Published in conference proceedings in the <b>Lecture Notes in Networks and Systems</b> Book Series by **Springer Nature**
 
-This repository provides the implementation of our proposed deep learning framework for detecting and classifying knee osteoarthritis (OA) severity from X-ray images. The model combines a modified Double U-Net architecture for hierarchical feature extraction, and a Convolutional Block Attention Module (CBAM) to predict Knee OA grades based on Kellgren-Lawrence (KL) grading system.
+Our paper is available at: [https://doi.org/10.1007/978-981-96-9239-2_9](https://doi.org/10.1007/978-981-96-9239-2_9)
+
+## Abstract
+This paper deploys deep learning models to detect and categorize knee osteoarthritis disease. The mentioned disease affects the joint areas and is marked by degrading transformations in the surrounding bone structure and tissues accompanied by a progressive breakdown of articular cartilage. In such studies, the Kellgren–Lawrence (KL) grading system is mainly adopted to determine the extent of knee osteoarthritis (OA). Based on the training of previously graded X-ray images, deep learning models can simultaneously automate the prediction process and expedite the diagnosis process with reduced human error. Our proposed model integrates a modified version of the Double U-Net model, a hierarchical system, and CBAM, an attention module to accurately predict the KL class of the knee OA X-ray scans. The training of the proposed model stands at 98%, while the validation accuracy is 80%. Our proposed model is efficient and achieves the desirable outcome with the available datasets.
 
 ## How to set up Docker?
 Docker makes it easy to build, share, and run the application in a consistent and reproducible environment, regardless of the host system. By using Docker, you avoid issues like dependency conflicts or mismatched library versions because all the necessary packages, configurations, and the runtime environment are encapsulated in the container. It also simplifies deployment to different machines and ensures that the code runs exactly as intended, whether on your local machine, a server, or in the cloud.
@@ -38,3 +40,6 @@ docker run --gpus all --name my_container -v /path/to/your/dataset:/app/dataset 
 ## Note:
 If you want to run without GPU, drop `--gpus all`
 <!-- You can use this repository to reproduce the experiments and results presented in the paper. See the instructions in README.md for setup and usage details. -->
+
+## Cite this paper
+Roy, G., Pal, A.K., Raj, M., Pradhan, J. (2026). Knee Osteoarthritis Detection and Categorization with Deep Learning Models. In: Giri, D., Ekbal, A., Ray, S., Kouichi, S. (eds) Proceedings of Second International Symposium on Artificial Intelligence. ISAI 2025. Lecture Notes in Networks and Systems, vol 1536. Springer, Singapore. https://doi.org/10.1007/978-981-96-9239-2_9
